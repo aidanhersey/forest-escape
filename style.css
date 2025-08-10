@@ -1,0 +1,19 @@
+body{
+    /*Webpage background*/
+    background: black;
+}
+
+#canvas1{
+   /*Centralising the game canvas*/
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   /*Canvas border*/
+   border: 5px solid white;
+}
+
+#playerImage, #backgroundImage, #enemyImage{
+    /*Hides game images*/
+    display: none;
+}
